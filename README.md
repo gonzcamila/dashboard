@@ -16,8 +16,7 @@ https://gonzcamila.github.io/dashboard/
 - GitHub Desktop and GitHub Pages
 
 ## Notes
-
--The weather and quotes come from JSON files in the repository
+- The weather and quotes come from JSON files in the repository
 weather does not change on its own. 
-Tasks and the theme choice are saved in the browser, so they stay on the device where
+- Tasks and the theme choice are saved in the browser, so they stay on the device where
 they were added. 
