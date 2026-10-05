@@ -17,5 +17,7 @@ https://gonzcamila.github.io/dashboard/
 
 ## Notes
 
-The accent color and font pairing were chosen in Lab 10.5. for project 1 ( personal portfolio)Contrast
-was verified against WCAG AA.
+-The weather and quotes come from JSON files in the repository
+weather does not change on its own. 
+Tasks and the theme choice are saved in the browser, so they stay on the device where
+they were added. 
