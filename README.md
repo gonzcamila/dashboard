@@ -4,7 +4,8 @@ A personal data dashboard built from scratch in HTML, CSS, and JavaScript
 for WRIT 40363. It brings the weather, quotes, and task list
 together in a light or dark theme.
 
-**Live site:** https://gonzcamila.github.io/portfolio-cgonzalez/
+**Live site:**
+https://gonzcamila.github.io/dashboard/
 
 ## Built with
 
