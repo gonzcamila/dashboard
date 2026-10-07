@@ -1,3 +1,5 @@
+// ===== Weather =====
+
 function loadWeather() {
     fetch('./data/weather.json')
         .then(response => response.json())
@@ -162,7 +164,7 @@ taskForm.addEventListener('submit', event => {
     taskInput.value = '';
 });
 
-
+// ===== Theme =====
 
 function initializeTheme() {
     if (localStorage.getItem('dashboardTheme') === 'dark') {
@@ -182,7 +184,7 @@ function toggleTheme() {
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 initializeTheme();
 
-
+// ===== Start =====
 
 loadWeather();
 loadQuotes();
