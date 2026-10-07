@@ -1,5 +1,6 @@
 // ===== Weather =====
 
+
 function loadWeather() {
     fetch('./data/weather.json')
         .then(response => response.json())
