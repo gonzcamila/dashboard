@@ -1,5 +1,3 @@
-// ===== Weather =====
-
 function loadWeather() {
     fetch('./data/weather.json')
         .then(response => response.json())
@@ -17,6 +15,7 @@ function displayWeather(weather) {
             <div class="weather-temp">${weather.temperature}°F</div>
             <div class="weather-location">${weather.location}</div>
             <div class="weather-condition">${weather.condition}</div>
+            <p class="weather-note">Sample weather, not a current report.</p>
         </div>`;
 }
 
@@ -163,7 +162,7 @@ taskForm.addEventListener('submit', event => {
     taskInput.value = '';
 });
 
-// ===== Theme =====
+
 
 function initializeTheme() {
     if (localStorage.getItem('dashboardTheme') === 'dark') {
@@ -183,7 +182,7 @@ function toggleTheme() {
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 initializeTheme();
 
-// ===== Start =====
+
 
 loadWeather();
 loadQuotes();
